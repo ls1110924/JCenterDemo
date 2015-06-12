@@ -14,8 +14,7 @@ gen/
 
 # Gradle files
 .gradle/
-build/
-/*/build/
+
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -25,3 +24,12 @@ proguard/
 
 # Log Files
 *.log
+
+.gradle
+/local.properties
+#local.properties文件我进行了忽略，因为APIKey确实不方便进行公开
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
